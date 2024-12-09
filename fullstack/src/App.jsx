@@ -1,9 +1,16 @@
-import LandingPage from  "./components/LandingPage.jsx"
+import React from 'react';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 
-export default function App() {
+function App() {
   return (
-    <>
-    <LandingPage />
-    </>
-  )
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <HeroSection />
+      <Footer />
+    </div>
+  );
 }
+
+export default App;
