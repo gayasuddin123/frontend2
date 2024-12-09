@@ -1,10 +1,10 @@
 import React from 'react';
-
+import image from "../assets/image.jpg"
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-6">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto">
-        
+      <div className="container  grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto">
+        <img src={image} alt="" className='ml-3'/>
         <div className='ml-10'>
           <h3 className="font-bold text-lg mb-2 text-blue-600">Contact us</h3>
           <ul className="flex flex-col">
