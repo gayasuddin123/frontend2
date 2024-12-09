@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBar from './SearchBar';
-import poster from "../assets/poster.jpg"
+import poster from "../assets/poster-removebg-preview.png"
 
 const HeroSection = () => {
   return (
@@ -15,11 +15,11 @@ const HeroSection = () => {
         <SearchBar />
         
       </div>
-      <div className="md:w-1/2 flex justify-center">
+      <div className="md:w-1/2 bg-transparent flex justify-center">
         <img
           src={poster}
           alt="Hero Illustration"
-          className="max-w-full h-auto  shadow-lg"
+          className="max-w-full h-auto bg-blue-600 shadow-lg"
         />
       </div>
     </section>
