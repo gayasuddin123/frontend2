@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../assets/image.jpg"
+import image from "../assets/black.jpg"
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-6">
